@@ -1,0 +1,40 @@
+
+.list {
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 6px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.new-item-form {
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+}
+
+input {
+  font-family: Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+  margin-right: 6px;
+  font-size: 18px;
+  padding: 24px;
+}
+
+.descriptive-text {
+  margin-bottom: 48px;
+}
+
+.descriptive-text ul li {
+  margin-bottom: 12px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 48px;
+}

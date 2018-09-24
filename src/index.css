@@ -1,0 +1,21 @@
+html, body {
+  font-family: Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  color: #644d52;
+}
+
+#root {
+  max-width: 800px;
+  margin: 24px auto;
+}
+
+button {
+  font-family: Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #644d52;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+}
