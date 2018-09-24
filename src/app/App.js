@@ -44,10 +44,10 @@ export class App extends Component {
             </ul>
           </p>
           <p>
-            Read more about how to use Phocus in its README on{" "}
-            <a href="https://github.com/diiq/phocus">Github</a>. View the source
+            Read more about how to use react-phocus in its README on{" "}
+            <a href="https://github.com/diiq/react-phocus">Github</a>. View the source
             for this example{" "}
-            <a href="https://github.com/diiq/phocus-example">here</a>.
+            <a href="https://github.com/diiq/react-phocus-example">here</a>.
           </p>
         </div>
       </div>
