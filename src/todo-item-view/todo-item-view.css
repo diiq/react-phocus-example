@@ -1,8 +1,14 @@
 .todo-item {
   border: 1px solid #ddd;
-  padding: 24px;
-  width: 300px;
+  padding: 12px;
   margin-bottom: 6px;
+  display: flex;
+}
+
+
+.todo-item .name {
+  padding: 12px;
+  flex: 1;
 }
 
 .todo-item.started {
@@ -15,9 +21,7 @@
 }
 
 .todo-item .buttons {
-  float: right;
-  margin-top: -10px;
-  margin-right: -10px;
+  padding-top: 2px;
 }
 
 .todo-item .buttons button {
