@@ -7,4 +7,4 @@ import { startPhocus } from "react-phocus";
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
-startPhocus(document.getElementById('root'));
+startPhocus(document.body);

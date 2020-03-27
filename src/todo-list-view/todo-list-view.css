@@ -1,13 +1,30 @@
 
 .list {
   max-width: 350px;
-  margin: 0 auto;
-  margin-bottom: 6px;
-}
-
-.list {
+  margin: 0;
   list-style-type: none;
   padding: 0;
+}
+
+.todo-list-view {
+  width: 350px;
+  margin: 48px;
+  padding: 48px;
+  border: 1px solid #ddd;
+  position: relative
+}
+.todo-list-view:focus-within {
+  border: 1px solid #888;
+}
+.todo-list-view:focus-within .active {
+  display: block;
+}
+.active {
+  display: none;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 10px;
 }
 
 .new-item-form {
@@ -19,11 +36,12 @@
 input {
   font-family: Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  box-shadow: 2px 2px 2px inset rgba(0, 0, 0, 0.2);
+  border-radius: #ddd;
   flex: 1;
-  margin-right: 6px;
+  margin-right: 0;
   font-size: 18px;
-  padding: 24px;
+  padding: 12px;
 }
 
 .descriptive-text {

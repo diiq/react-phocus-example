@@ -1,10 +1,14 @@
 .todo-item {
   border: 1px solid #ddd;
-  padding: 12px;
   margin-bottom: 6px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.todo-item:focus {
+  border: 1px solid #00a5ff;
+}
 
 .todo-item .name {
   padding: 12px;
@@ -21,21 +25,21 @@
 }
 
 .todo-item .buttons {
-  padding-top: 2px;
-}
-
-.todo-item .buttons button {
-  margin-left: 6px;
+  display: flex;
 }
 
 button.warn {
-  background-color: #89192f;
+  background-color: #810116;
   font-size: 24px;
   vertical-align: bottom;
   line-height: 22px;
   content: "&times;";
 }
 
+button.finish {
+  background-color: #d47b02;
+}
+
 button.success {
-  background-color: #01530d;
+  background-color: #47a501;
 }

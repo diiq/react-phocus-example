@@ -11,7 +11,7 @@ ActionContextService.addContext("todo-list", {
   actions: {
     add: new Action({
       name: "Add Todo",
-      defaultKeys: ["Control+n"],
+      defaultKeys: ["Alt+n"],
       actOn: c => {
         c.focusTodoName();
       }
@@ -51,6 +51,7 @@ export const TodoListView = observer(
     render() {
       return (
         <PhocusContext className="todo-list-view" argument={this} context="todo-list">
+          <div className="active">Example has focus</div>
           <ul className="list">
             {TodoList.items.map(item => (
               <TodoItemView item={item} key={item.id} />

@@ -80,7 +80,7 @@ export const TodoItemView = observer(
           <div className="buttons">
             {item.status === "todo" && <PhocusButton action="start" />}
             {item.status === "started" && (
-              <PhocusButton action="finish" className="success" />
+              <PhocusButton action="finish" className="finish" />
             )}
             <PhocusButton action="delete" className="warn">
               &times;

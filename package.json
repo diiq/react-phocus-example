@@ -4,13 +4,13 @@
   "private": true,
   "homepage": "https://diiq.github.io/react-phocus-example/",
   "dependencies": {
-    "gh-pages": "^2.0.0",
-    "mobx": "^5.1.2",
-    "mobx-react": "^5.2.8",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-phocus": "^1.0.2",
-    "react-scripts": "1.1.5"
+    "gh-pages": "^2.2.0",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-phocus": "^1.4.5",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,5 +19,17 @@
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

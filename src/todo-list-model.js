@@ -53,4 +53,3 @@ export const TodoList = new TodoListClass();
 TodoList.add("Eat a cheese");
 TodoList.add("Sing about sixpence");
 TodoList.add("Go forth, or fifth");
-console.log(TodoList.items)
