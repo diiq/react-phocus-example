@@ -1,6 +1,22 @@
 {
-  "main.css": "static/css/main.8375ce56.css",
-  "main.css.map": "static/css/main.8375ce56.css.map",
-  "main.js": "static/js/main.aa8efbf6.js",
-  "main.js.map": "static/js/main.aa8efbf6.js.map"
+  "files": {
+    "main.css": "/react-phocus-example/static/css/main.61ac2821.chunk.css",
+    "main.js": "/react-phocus-example/static/js/main.fa0c8c22.chunk.js",
+    "main.js.map": "/react-phocus-example/static/js/main.fa0c8c22.chunk.js.map",
+    "runtime-main.js": "/react-phocus-example/static/js/runtime-main.601c28ab.js",
+    "runtime-main.js.map": "/react-phocus-example/static/js/runtime-main.601c28ab.js.map",
+    "static/js/2.2c169a51.chunk.js": "/react-phocus-example/static/js/2.2c169a51.chunk.js",
+    "static/js/2.2c169a51.chunk.js.map": "/react-phocus-example/static/js/2.2c169a51.chunk.js.map",
+    "index.html": "/react-phocus-example/index.html",
+    "precache-manifest.8fd01c8bb251f723f765e33be5cad19b.js": "/react-phocus-example/precache-manifest.8fd01c8bb251f723f765e33be5cad19b.js",
+    "service-worker.js": "/react-phocus-example/service-worker.js",
+    "static/css/main.61ac2821.chunk.css.map": "/react-phocus-example/static/css/main.61ac2821.chunk.css.map",
+    "static/js/2.2c169a51.chunk.js.LICENSE.txt": "/react-phocus-example/static/js/2.2c169a51.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.601c28ab.js",
+    "static/js/2.2c169a51.chunk.js",
+    "static/css/main.61ac2821.chunk.css",
+    "static/js/main.fa0c8c22.chunk.js"
+  ]
 }
