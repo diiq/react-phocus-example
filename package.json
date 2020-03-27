@@ -9,7 +9,7 @@
     "mobx-react": "^6.1.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-phocus": "^1.4.5",
+    "react-phocus": "^1.4.6",
     "react-scripts": "3.4.1"
   },
   "scripts": {
