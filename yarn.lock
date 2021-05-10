@@ -4681,8 +4681,9 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -7217,10 +7218,10 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-phocus@^1.4.2:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/phocus/-/phocus-1.4.4.tgz#5e6ad045c3d5bad096d2db8642828205cfb38a25"
-  integrity sha512-8klT21LqOhn0VWvWnz9l/JGmGYZqY6W0TYvnpA6dTqqY1a+DyIFtq2KkujwB7YwKohUd6Lb6unK0lUCaUlgCaQ==
+phocus@^1.4.4:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/phocus/-/phocus-1.5.0.tgz#cdc1217d96104d57f63ddf0935cd608bbe9c70fa"
+  integrity sha512-TNEwWGMAwaq4fQnGAuDoZ3UNmSpWjhugM+1uUUawVV2SRdY3OIBMh/8Y2yqpCagOX7MMdzD1g9luMYzg6oW5Cg==
 
 picomatch@^2.0.4, picomatch@^2.0.7:
   version "2.2.2"
@@ -8252,12 +8253,12 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-phocus@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/react-phocus/-/react-phocus-1.4.5.tgz#75b165e38410b657ffc0343c6c3d4ad6a725a3df"
-  integrity sha512-30R0JC+LtAqMsqg0tKGONaXzmeBzTfSUfxYiiIJB5dTy6vEYnJWFBmMRppSgeRnrwk3V3OuvQ2Tad+3JiwWJ7w==
+react-phocus@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/react-phocus/-/react-phocus-1.4.6.tgz#eaa4ff260ebc8c8fea225f545f0a393f3726ad95"
+  integrity sha512-08lREBcAdHIAoLFhSek08d7/Dxak9IjP5ES0E++xkvwilALj+fDoEDr5vImmvfzdzlIGFNqd8YEPbQgW2ukDcg==
   dependencies:
-    phocus "^1.4.2"
+    phocus "^1.4.4"
 
 react-scripts@3.4.1:
   version "3.4.1"
